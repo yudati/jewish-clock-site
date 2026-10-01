@@ -5,42 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>שעון יהודי — זמנים, סידור, שעון מעורר ומצא מניין</title>
   <meta name="description" content="שעון יהודי לאנדרואיד: זמני היום לכל מקום, סידור מלא בשלושה נוסחים, שעון מעורר עם מצב שבת, מצא מניין, לימוד יומי ולוח שנה עברי — הכל בעברית ובחינם.">
-  <meta property="og:title" content="שעון יהודי — האפליקציה היהודית השלמה">
-  <meta property="og:description" content="זמנים, סידור, שעון מעורר עם מצב שבת, מצא מניין ולימוד יומי — בעברית.">
-  <meta property="og:image" content="assets/feature.jpg">
+  <link rel="alternate" hreflang="he" href="https://yudati.github.io/jewish-clock-site/">
+  <link rel="alternate" hreflang="en" href="https://yudati.github.io/jewish-clock-site/en/">
+  <link rel="alternate" hreflang="x-default" href="https://yudati.github.io/jewish-clock-site/">
+  <meta property="og:title" content="שעון יהודי — זמנים, סידור, שעון מעורר ומצא מניין">
+  <meta property="og:description" content="שעון יהודי לאנדרואיד: זמני היום לכל מקום, סידור מלא בשלושה נוסחים, שעון מעורר עם מצב שבת, מצא מניין, לימוד יומי ולוח שנה עברי — הכל בעברית ובחינם.">
+  <meta property="og:image" content="https://yudati.github.io/jewish-clock-site/assets/feature.jpg">
   <meta property="og:type" content="website">
-  <link rel="icon" href="assets/icon.png">
+  <meta name="theme-color" content="#0f1a2e">
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/logo-256.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=2">
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
-
+<a class="skip" href="#main">דלג לתוכן</a>
 <nav class="nav" aria-label="ניווט ראשי">
   <div class="wrap">
-    <a class="brand" href="#"><img src="assets/icon.png" alt="" width="34" height="34">שעון יהודי</a>
-    <div class="links">
-      <a href="#features">מה יש באפליקציה</a>
-      <a href="#shots">צילומי מסך</a>
-      <a href="#faq">שאלות</a>
-      <a href="#contact">צור קשר</a>
-    </div>
+    <a class="brand" href="#"><img src="assets/logo-256.png" alt="" width="40" height="40">שעון יהודי</a>
+    <div class="links"><a href="#features">מה יש באפליקציה</a><a href="#shots">צילומי מסך</a><a href="#faq">שאלות</a><a href="#contact">צור קשר</a></div>
+    <div class="tools"><a class="chip-btn" href="en/index.html" hreflang="en" lang="en"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm6.9 6h-2.9a15.7 15.7 0 0 0-1.4-3.6A8 8 0 0 1 18.9 8zM12 4c.8 1.2 1.5 2.5 1.9 4h-3.8c.4-1.5 1.1-2.8 1.9-4zM4.3 14a8.2 8.2 0 0 1 0-4h3.4a16.5 16.5 0 0 0 0 4H4.3zm.8 2h2.9c.3 1.3.8 2.5 1.4 3.6A8 8 0 0 1 5.1 16zM8 8H5.1a8 8 0 0 1 4.3-3.6C8.8 5.5 8.3 6.7 8 8zm4 12c-.8-1.2-1.5-2.5-1.9-4h3.8c-.4 1.5-1.1 2.8-1.9 4zm2.3-6H9.7a14.7 14.7 0 0 1 0-4h4.6a14.7 14.7 0 0 1 0 4zm.3 5.6c.6-1.1 1.1-2.3 1.4-3.6h2.9a8 8 0 0 1-4.3 3.6zm1.7-5.6a16.5 16.5 0 0 0 0-4h3.4a8.2 8.2 0 0 1 0 4h-3.4z"/></svg>English</a></div>
   </div>
 </nav>
-
 <header class="hero">
   <div class="wrap">
     <div>
-      <h1>כל היום היהודי <span>במקום אחד</span></h1>
-      <p class="lead">
-        זמני היום המדויקים למקום שלך, סידור מלא לפי נוסח אשכנז, ספרד ועדות המזרח, שעון מעורר שיודע מתי שבת,
-        מציאת מניין בסביבה, לימוד יומי ולוח שנה עברי — הכל בעברית, בחינם, ובלי פרסומות.
-      </p>
+      <div class="brandblock">
+        <div class="logo-glow"><img src="assets/logo-256.png" alt="" width="104" height="104"></div>
+        <div class="brandtext">
+          <h1>שעון יהודי</h1>
+          <div class="goldbar" aria-hidden="true"></div>
+          <div class="latin" lang="en">Jewish Alarm Clock</div>
+        </div>
+      </div>
+      <p class="tagline">כל היום היהודי במקום אחד</p>
+      <p class="lead">זמני היום המדויקים למקום שלך, סידור מלא לפי נוסח אשכנז, ספרד ועדות המזרח, שעון מעורר שיודע מתי שבת, מציאת מניין בסביבה, לימוד יומי ולוח שנה עברי — הכל בעברית, בחינם, ובלי פרסומות.</p>
       <div class="cta">
-        <a class="btn" href="https://play.google.com/store/apps/details?id=com.jewishalarmclock.app" rel="noopener">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3.6 2.3 13 12l-9.4 9.7c-.4-.3-.6-.8-.6-1.4V3.7c0-.6.2-1.1.6-1.4zm11.9 7.6L5.6 1.6l11 6.3-1.1 2zm0 4.2 1.1 2-11 6.3 9.9-8.3zm1.6-3.5 3.3 1.9c1 .6 1 1.6 0 2.2l-3.3 1.9L14.4 12l2.7-1.4z"/></svg>
-          הורדה ב-Google Play
-        </a>
+        <a class="btn" href="https://play.google.com/store/apps/details?id=com.jewishalarmclock.app" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3.6 2.3 13 12l-9.4 9.7c-.4-.3-.6-.8-.6-1.4V3.7c0-.6.2-1.1.6-1.4zm11.9 7.6L5.6 1.6l11 6.3-1.1 2zm0 4.2 1.1 2-11 6.3 9.9-8.3zm1.6-3.5 3.3 1.9c1 .6 1 1.6 0 2.2l-3.3 1.9L14.4 12l2.7-1.4z"/></svg>הורדה ב-Google Play</a>
         <a class="btn ghost" href="#features">מה יש בפנים?</a>
       </div>
       <p class="note">חינם לגמרי, בלי פרסומות ובלי מנויים. מי שרוצה יכול לתרום לפיתוח מתוך האפליקציה. אנדרואיד 8 ומעלה.</p>
@@ -48,7 +50,7 @@
     <img class="shot zoom" src="assets/01_s_home.jpg?v=2" alt="מסך הבית של האפליקציה: תאריך עברי, זמני היום הקרובים וקיצורי דרך" width="1080" height="1920">
   </div>
 </header>
-
+<main id="main">
 <section id="features">
   <div class="wrap">
     <h2>מה יש באפליקציה</h2>
@@ -100,51 +102,13 @@
     <a class="btn" href="https://play.google.com/store/apps/details?id=com.jewishalarmclock.app" rel="noopener">להורדה ב-Google Play</a>
   </div>
 </section>
-
+</main>
 <footer>
   <div class="wrap">
     <span>© <span id="y">2026</span> שעון יהודי. כל הזכויות שמורות.</span>
-    <nav class="legal" aria-label="מסמכים משפטיים">
-      <a href="privacy.html">מדיניות פרטיות</a>
-      <a href="terms.html">תנאי שימוש</a>
-      <a href="accessibility.html">הצהרת נגישות</a>
-    </nav>
+    <nav class="legal" aria-label="מסמכים משפטיים"><a href="privacy.html">מדיניות פרטיות</a><a href="terms.html">תנאי שימוש</a><a href="accessibility.html">הצהרת נגישות</a></nav>
   </div>
 </footer>
-
-<dialog id="lb" class="lightbox" aria-label="תצוגה מוגדלת">
-  <button class="lb-close" type="button" aria-label="סגירה">✕</button>
-  <button class="lb-nav lb-prev" type="button" aria-label="התמונה הקודמת">›</button>
-  <img id="lb-img" alt="">
-  <button class="lb-nav lb-next" type="button" aria-label="התמונה הבאה">‹</button>
-</dialog>
-<script>
-(function () {
-  var imgs = Array.prototype.slice.call(document.querySelectorAll('img.zoom'));
-  var dlg = document.getElementById('lb'), big = document.getElementById('lb-img'), cur = 0;
-  function show(i) { cur = (i + imgs.length) % imgs.length; big.src = imgs[cur].src; big.alt = imgs[cur].alt; }
-  imgs.forEach(function (im, i) {
-    im.tabIndex = 0; im.setAttribute('role', 'button');
-    im.addEventListener('click', function () { show(i); dlg.showModal(); });
-    im.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); show(i); dlg.showModal(); } });
-  });
-  dlg.querySelector('.lb-close').onclick = function () { dlg.close(); };
-  dlg.querySelector('.lb-prev').onclick = function () { show(cur - 1); };
-  dlg.querySelector('.lb-next').onclick = function () { show(cur + 1); };
-  dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
-  document.addEventListener('keydown', function (e) {
-    if (!dlg.open) return;
-    if (e.key === 'ArrowLeft') show(cur + 1);
-    if (e.key === 'ArrowRight') show(cur - 1);
-  });
-  var x0 = null;
-  big.addEventListener('touchstart', function (e) { x0 = e.touches[0].clientX; }, { passive: true });
-  big.addEventListener('touchend', function (e) {
-    if (x0 === null) return; var dx = e.changedTouches[0].clientX - x0; x0 = null;
-    if (Math.abs(dx) > 40) show(dx < 0 ? cur - 1 : cur + 1);
-  });
-})();
-</script>
-<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+<script src="site.js?v=3" defer></script>
 </body>
 </html>
